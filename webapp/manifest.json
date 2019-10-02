@@ -21,6 +21,7 @@
 					"odataVersion": "2.0",
 					"localUri": "localService/metadata.xml"
 				}
+<<<<<<< HEAD
 			},
 			"ZGW_CUST_360_JDB_SRV": {
 				"uri": "/sap/opu/odata/sap/ZGW_CUST_360_JDB_SRV/",
@@ -135,3 +136,78 @@
 		}
 	}
 }
+=======
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["sap_hcb", "sap_belize"]
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "com.delaware.jl.trac2019.view.App",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.f": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "com.delaware.jl.trac2019.i18n.i18n"
+				}
+			},
+			"appView": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"preload": false
+			}
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/style.css"
+			}]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.f.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "com.delaware.jl.trac2019.view",
+				"controlId": "idAppControl"
+			},
+			"routes": [
+			
+			],
+			"targets": {
+				
+			}
+		}
+	}
+}
+>>>>>>> refs/heads/master

@@ -26,6 +26,7 @@
         "name": "Northwind"
       },
       "description": "Northwind"
+<<<<<<< HEAD
     },
     {
       "path": "/sap/opu/odata",
@@ -35,6 +36,8 @@
         "entryPath": "/sap/opu/odata"
       },
       "description": "F4C_MASTER"
+=======
+>>>>>>> refs/heads/master
     }
   ],
   "sendWelcomeFileRedirect": true
